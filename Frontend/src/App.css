@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .signIn-child {
+    width: 50% !important;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  .menu-icon {
+    display: none !important;
+  }
+
+  .assign-div-2 {
+    width: 100% !important;
+  }
+
+  .assign-div {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .join-class-w {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (min-width:740px) {
+  .main-child {
+    visibility: visible !important;
+  }
+
+  .myclass-header-div {
+    display: none !important;
+  }
+
+  .myclass-header-img {
+    display: block !important;
+  }
+
+  .announce-class-p {
+    width: 51rem !important;
+  }
+
+  .class-code-h {
+    width: 12rem !important;
+  }
+
+  .accordian-p {
+    width: 70% !important;
+  }
+
+  .assign-attach-icons {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width:740px) {
+  .myclass-header {
+    height: 15rem !important;
+  }
+
+  .myclass-cred {
+    font-size: 30px !important;
+  }
+
+  .announce-child2 {
+    height: fit-content !important;
+    display: block !important;
+  }
+
+  .class-code-h-p {
+    width: 100% !important;
+  }
+
+  .assign-close {
+    font-size: 13px !important;
+  }
+
+  .assign-btn {
+    font-size: 13px !important;
+  }
+
+  .assign-icon {
+    font-size: 21px !important;
+  }
+
+  .assign-title {
+    font-size: 15px !important;
+  }
+
+  .submission-fonts{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .inputs {
+    width: auto !important;
+  }
+
+  .join-class-w {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .drop-ul {
+    width: fit-content !important;
+  }
+
+  .user-name-font {
+    letter-spacing: .01785714em !important;
+    font-size: 1rem !important;
+  }
+}

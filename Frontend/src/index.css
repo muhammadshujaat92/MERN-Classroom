@@ -1,0 +1,673 @@
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+.modal.fade .modal-dialog {
+    transform: scale(0.9);
+    transition: transform 0.1s ease-out;
+}
+
+.modal.fade.show .modal-dialog {
+    transform: scale(1);
+}
+
+.material-symbols-outlined:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.user-image {
+    padding: 6px 5px 5px 5px;
+}
+
+.user-image:hover {
+    background-color: whitesmoke;
+}
+
+.offcanvas-start {
+    width: 19rem !important;
+}
+
+.li-home {
+    background-color: rgba(26, 115, 232, .12);
+    border: 1px solid #7171f3;
+}
+
+.li-home:hover {
+    background-color: rgba(26, 115, 232, .12) !important;
+}
+
+.list-unstyled:visited {
+    background-color: rgba(26, 115, 232, .12);
+    border: 1px solid #7171f3;
+}
+
+.list-unstyled:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.main {
+    height: 45vh;
+}
+
+/* .signIn-main {
+    height: 100vh;
+} */
+
+.signIn-main>div {
+    padding-bottom: 60px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.main-child {
+    padding-right: 2.2rem;
+}
+
+/* Navbar */
+.dropdown-menu {
+    /* top: 25px !important;
+    right: 15px !important; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal-body,
+.form-check-label {
+    font-size: 15px;
+}
+
+.inputs {
+    width: 27rem;
+    background-color: #0000000a;
+}
+
+.pointer-class {
+    cursor: pointer;
+}
+
+/* UserDetail */
+
+.drop-ul {
+    height: fit-content;
+    width: 25rem;
+    background-color: #e9eef6;
+}
+
+.add-remove-btn:hover {
+    background-color: rgb(217 217 217) !important;
+}
+
+.terms-privacy-links {
+    font-size: small;
+}
+
+.terms-privacy-links:hover {
+    background-color: #dddddd;
+}
+
+.acc-manage-btn {
+    border: 1px solid rgb(53, 53, 53) !important;
+}
+
+.acc-manage-btn:hover {
+    background-color: #d6deeb;
+}
+
+/* ClassItems */
+.links {
+    height: fit-content;
+}
+
+.links:hover {
+    text-decoration: underline !important;
+}
+
+.cl-name {
+    /* letter-spacing: .01785714em;
+    font-weight: 500; */
+    font-family: "Google Sans", Roboto, Arial, sans-serif !important;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.cl-section {
+    letter-spacing: .01785714em;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.dis-btn:hover {
+    background-color: white !important;
+}
+
+.float-inpt {
+    border-bottom: 1px solid black !important;
+    background-color: #edeef2;
+}
+
+.float-inpt:focus {
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.modal-header {
+    justify-content: normal !important;
+}
+
+.email-p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.font-style {
+    font-size: 16px;
+}
+
+.p-button {
+    padding: 4px 5px;
+    font-size: 15px;
+}
+
+.p-button:hover {
+    background-color: #f0f0f0;
+    color: blue;
+}
+
+.p-button2 {
+    padding: 4px 20px;
+}
+
+.a-font {
+    font-size: 13px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.active-link {
+    border-bottom: 3px solid blue !important;
+}
+
+.nav-link:hover {
+    background-color: #eeeded;
+}
+
+/* MyClass */
+.p-div {
+    min-height: 95vh;
+}
+
+.class-code-p {
+    height: fit-content;
+}
+
+.class-code-h {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3c4043;
+    /* width: 12rem; */
+}
+
+.class-code {
+    font-size: 1.375rem;
+    color: blue;
+    font-weight: 500;
+}
+
+.myclass-header {
+    position: relative;
+}
+
+.myclass-classDetail {
+    position: absolute;
+    top: 60%;
+    /* left: 3%; */
+    letter-spacing: .01785714em;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.myclass-cred {
+    font-size: 40px;
+}
+
+.view-button {
+    background-color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    color: blue;
+}
+
+.view-button:hover {
+    background-color: #eff1f2;
+}
+
+.announce-child {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 4.5rem;
+}
+
+.announce-child2 {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 12rem;
+}
+
+.announce-child2 p {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3c4043;
+    padding-right: 75px;
+}
+
+.announce-child a {
+    font-size: 13px;
+    color: #4e4e4e;
+    cursor: pointer;
+}
+
+.announce-child a:hover {
+    color: blue;
+}
+
+.setting-button {
+    background-color: white;
+    color: blue;
+    padding: 5px 19px 5px 15px;
+    letter-spacing: .01785714em;
+    font-weight: 500;
+}
+
+.setting-button:hover {
+    background-color: #f0f4f8;
+}
+
+/* .announce-class-p {
+    width: 51rem;
+} */
+
+.hidden-h4 {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3c4043;
+}
+
+.hidden-drop-menu {
+    top: 0px !important;
+    width: 15rem !important;
+    padding: 20px 5px 20px 5px;
+}
+
+.hidden-drop-menu input {
+    accent-color: #707070;
+    width: 40px;
+    height: 18px;
+    cursor: default;
+}
+
+.hidden-drop-menu span {
+    cursor: default;
+}
+
+.hidden-drop-menu a {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #3c4043;
+}
+
+.hidden-div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hidden-div select {
+    padding: 15px 10px 15px 10px;
+    width: 132px;
+}
+
+.dropdown button {
+    border: none;
+    padding: 15px 20px 15px 20px;
+}
+
+.textarea-div {
+    height: 10rem;
+}
+
+#exampleFormControlTextarea1 {
+    border-bottom: 1px solid;
+}
+
+#exampleFormControlTextarea1:focus {
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+.form-floating>.form-control:focus~label::after {
+    background-color: #f7f7f7 !important;
+    color: blue !important;
+}
+
+.form-floating>.form-control:focus~label {
+    color: blue !important;
+}
+
+.blue-icon {
+    color: #0000c0;
+}
+
+.font {
+    letter-spacing: .01785714em;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.drop-btn {
+    padding: 5px 12px 6px 12px !important;
+}
+
+.cancel-btn {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    background-color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #e5e5e5;
+}
+
+.post-dropdown {
+    top: 0px !important;
+}
+
+/* .card-parent {
+    padding-left: 1.9rem;
+    padding-top: 1.5rem;
+} */
+
+.card-body-hidden {
+    visibility: hidden;
+    margin: 0;
+}
+
+.overlay-img-1 {
+    height: fit-content;
+    padding-top: 9px;
+    padding-bottom: 5px;
+}
+
+.overlay-img-2 {
+    top: 48px;
+}
+
+.overlay-div {
+    letter-spacing: .01785714em;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.teacher-name-div {
+    letter-spacing: .01785714em;
+    font-size: 0.79rem;
+    font-weight: 500;
+    text-decoration: none;
+    height: fit-content;
+    padding-top: 5px;
+}
+
+.teacher-image {
+    height: 4.5rem;
+}
+
+.teacher-name-div:hover {
+    text-decoration: underline;
+}
+
+.class-icons:hover {
+    background-color: #f4f4f4;
+}
+
+/* ClassItems */
+.class-icons-menu {
+    height: fit-content !important;
+}
+
+.class-icons-menu:hover {
+    background-color: #0000ff2e;
+}
+
+.new-card {
+    width: 19rem;
+}
+
+.image-div {
+    background-image: url(./assets/header.png);
+    background-position-x: -40px;
+    height: 6.5rem;
+    background-repeat: no-repeat;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.edit-dele-btn {
+    cursor: pointer !important;
+}
+
+.create-plus-btn:hover {
+    background-color: #0808ad;
+}
+
+.create-btn {
+    background-color: #0808ad !important;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 15px;
+}
+
+.blue-text {
+    color: #0707c6;
+}
+
+.calender-drive:hover {
+    background-color: #e2e2fa;
+    cursor: pointer;
+}
+
+.calender-drive>div:hover {
+    background-color: #e2e2fa;
+}
+
+.work-lists {
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+
+.work-lists:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 3px -3px;
+}
+
+.accordion-button::after {
+    display: none !important;
+}
+
+.accordian-p {
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    width: 70%;
+}
+
+.accordian-font {
+    letter-spacing: .01785714em;
+    font-size: 0.8rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.assign-icon:hover {
+    cursor: default;
+    background-color: white;
+}
+
+.assign-drop {
+    padding: 5px 13px 5px 13px !important;
+    margin-left: 2px;
+    background-color: rgb(23, 78, 166) !important;
+    font-size: 19px;
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+.assign-drop~ul {
+    top: 0px !important;
+    /* right: 0 !important; */
+}
+
+.assign-btn {
+    background-color: rgb(23, 78, 166) !important;
+    color: white;
+    border-radius: 4px !important;
+}
+
+.assign-btn:hover {
+    color: white;
+}
+
+.floting-inp:focus {
+    box-shadow: none !important;
+    border-bottom: 1px solid rgb(1, 1, 196);
+}
+
+.floting-text:focus {
+    box-shadow: none !important;
+    border-bottom: 1px solid rgb(1, 1, 196);
+}
+
+.floting-inp {
+    border-bottom: 1px solid;
+}
+
+.floting-text {
+    height: 10.5rem !important;
+    border-bottom: 1px solid;
+}
+
+.y-icon {
+    color: red;
+}
+
+.g-add {
+    background: linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0 25%/48% 40%,
+        linear-gradient(to top left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+
+        linear-gradient(-40deg, transparent 53%, #ea4335 54%),
+        linear-gradient(45deg, transparent 46%, #4285f4 48%),
+        #34a853;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    ;
+}
+
+.g-add:hover {
+    background: linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0 25%/48% 40%,
+        linear-gradient(to top left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+
+        linear-gradient(-40deg, transparent 53%, #ea4335 54%),
+        linear-gradient(45deg, transparent 46%, #4285f4 48%),
+        #34a853;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    ;
+}
+
+.g-add {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 700,
+        'GRAD' 200,
+        'opsz' 48
+}
+
+.points-input {
+    border: none;
+    padding: 15px 20px 15px 20px;
+    width: 10rem;
+}
+
+.points-input:hover {
+    border-bottom: 1px solid blue;
+}
+
+.points-input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.assign-div {
+    width: 73%;
+}
+
+.assign-div-2 {
+    width: 27%;
+}
+
+.hover:hover {
+    background-color: #dcdcdc !important;
+}
+
+.inp-div {
+    height: 90px;
+}
+
+.due-input:focus-visible {
+    outline: none !important;
+}
+
+/* Announcement */
+
+#exampleFormControlTextarea2:focus {
+    box-shadow: none;
+}
+
+.light-font {
+    letter-spacing: .01785714em;
+    font-size: 0.8rem;
+}
+
+#exampleFormControlTextarea2 {
+    resize: none;
+    overflow-y: hidden;
+}
+
+.comment-span {
+    letter-spacing: .01785714em;
+    font-size: 0.91rem;
+}
+
+.date-span {
+    letter-spacing: .01785714em;
+    font-size: 0.8rem;
+    font-weight: 400 !important;
+}
+
+.comments-btn {
+    margin-left: 15px;
+}
+
+.comments-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.normal_font {
+    letter-spacing: .01785714em;
+    font-size: 0.94rem;
+}
